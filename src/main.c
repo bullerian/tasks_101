@@ -23,8 +23,8 @@ void * arithmeticProgression(void* params);
 sum_range_t t1_params, t2_params;
 
 // allocate custom stacks for threads
-int t1_stack[PTHREAD_STACK_MIN];
-int t1_stack[PTHREAD_STACK_MIN];
+char t1_stack[PTHREAD_STACK_MIN];
+char t1_stack[PTHREAD_STACK_MIN];
 
 int main()
 {
